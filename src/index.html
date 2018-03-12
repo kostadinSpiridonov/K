@@ -6,18 +6,20 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="icon" href="images/favicon.ico" type="image" sizes="32x32"> -->
-
     <!-- CSS  -->
     <link href="css/bootstrap/bootstrap.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/bootstrap/bootstrap-grid.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/header.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/navigation.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!-- CSS  -->
 </head>
 
 <body data-spy="scroll" data-target="#main-navigation">
+
+
     <!--NAVIGATION-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="main-navigation">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" id="main-navigation">
         <a class="navbar-brand" href="#home">Home</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
@@ -25,7 +27,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto text-right">
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
                 </li>
@@ -40,30 +42,62 @@
                 </li>
             </ul>
         </div>
-    </nav>    
+    </nav>
     <!--NAVIGATION-->
 
-    <div>
-        <div id="home" style="height:1000px; background-color:green">
 
+    <!--HEADER SECTION-->
+    <header id="home">
+
+        <div class="container header-main-container">            
+            <div class="row height-100per">
+
+                <div class="header-title col-md-7">
+                    <h1 class="font-size-02">Welcome!</h1>
+                    <h2 class="font-size-015">To personal site of Kostadin Spiridonov</h2>
+                    <p class="header-resume">
+                        That empowers me to build strong background in the programming and software development. My passion in software development
+                        drive me to become a founder and contributing to open-source projects. I am a team worker who is
+                        able to adapt in highly dynamic and changing situations, and the new industry standards.
+                    </p>
+                </div>
+
+                <div class="col-md-5 header-profile-image-container">
+                    <img class="header-user-photo" src="resources/me.png">
+                    <img>
+                </div>
+            </div>
         </div>
 
-        <div id="about" style="height:1000px; background-color:red">
-
+        <div class="header-gradient-background height-10em">
+            <div class="row height-100per margin-0">
+                <h2 class="col-md-4 col-sm-4 text-center my-auto">Programming</h1>
+                <h2 class="col-md-4 col-sm-4 text-center my-auto">Fishing</h1>
+                <h2 class="col-md-4 col-sm-4  col-xs-12 text-center my-auto">Programming</h1>
+            </div>
         </div>
-        <div id="skills" style="height:1000px; background-color:blue">
 
-        </div>
-        <div id="experience" style="height:1000px; background-color:yellow">
+        <div class="height-100per"></div>
+    </header>
+    
+    <!--HEADER SECTION-->
+    
+    <section id="about" style="height:1000px; background-color:red">
 
-        </div>
-        <div id="contacts" style="height:1000px; background-color:pink">
+    </section>
 
-        </div>
-    </div>
+    <section id="skills" style="height:1000px; background-color:blue">
 
+    </section>
 
+    <section id="experience" style="height:1000px; background-color:yellow">
 
+    </section>
+
+    <section id="contacts" style="height:1000px; background-color:pink">
+
+    </section>
+    
     <!--SCRIPTS-->
     <script src="js/jquery/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
