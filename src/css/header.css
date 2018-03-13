@@ -1,32 +1,41 @@
 @media (min-width: 300px) {     
     header {
-        min-height: 100em;
+        min-height: 70em;
     }
     
-    .header-main-container{
-        height: 70em;
+    header > div{
+        height: 55em;
     }
 
     .header-title {
-        margin-top:8em;
+        margin-top:5em;
+    }
+
+    .header-title > p{
+        margin-top:2em;
     }
     
-    .header-user-photo{
+    .header-profile-image-container > img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-height:500px;
+        max-height:500em;
         opacity: 0.7;
         filter: alpha(opacity=70);
+        width: 80%;
     }
  }
 
 @media (min-width: 768px) { 
     header {
-        min-height: 50em;
+        min-height: 52em;
+    }
+
+    .header-title > p{
+        margin-top:5em;
     }
     
-    .header-main-container{
+    header > div{
         height: 40em;
     }
 
@@ -35,22 +44,27 @@
     }
 
     .header-profile-image-container{
-        margin-top:8em;
+        margin-top:11em;
     }
     
-    .header-user-photo{
-        max-height:400px;
+    .header-profile-image-container > img{
+        width: 100%;
     }
  }
 
 @media (min-width: 992px) {     
- 
     .header-profile-image-container{
-        margin-top:5em;
+        margin-top:7em;
     }
-    
-    .header-user-photo{
-        max-height:500px;
+
+    .header-profile-image-container > img{
+        width: 90%;
+    }
+ }
+
+ @media (min-width: 1200px) {     
+    .header-profile-image-container > img{
+      width: 80%;
     }
  }
 
@@ -63,10 +77,14 @@ header{
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
 
-.header-resume{
-    margin-top:50px;
-}
-
 .header-gradient-background > div > p{
     font-size: 2em;
 }
+
+.header-title > h1{
+    font-size: 2.2em;
+}
+
+.header-title > h2{
+    font-size: 2em;
+} 
