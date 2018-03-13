@@ -1,0 +1,64 @@
+.skills-main-container{
+    padding-top:3em;
+    height: 100%;
+}
+
+.skills-items-container{
+    height: 100%;
+    padding-top:2em;
+    height: 150em;
+}
+
+.skills-item {
+    padding: 1em;
+}
+
+.skills-item > div {
+    height: 13em;
+}
+
+.skills-item > div > img {
+    height: 11em;
+    width: 100%;
+    margin-top:-1px;
+    margin-left:-1px;
+    margin-right:-21px;
+}
+
+.skills-item > div > p {
+    font-size:1.4em;
+}
+
+@media (min-width: 100px) {  
+    .skills-item{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #skills{
+        min-height:190em;
+    }
+}
+
+@media (min-width: 576px) {  
+    .skills-item{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #skills{
+        min-height:100em;
+    }
+}
+
+@media (min-width: 768px) { 
+    #skills{
+        min-height:70em;
+    }
+}
+
+@media (min-width: 992px) {  
+   #skills{
+    min-height:55em;
+    }
+ }

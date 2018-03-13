@@ -5,13 +5,15 @@
     <title>Kostadin Spiridonov</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
 
     <!-- CSS  -->
-    <link href="css/bootstrap/bootstrap.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/bootstrap/bootstrap-grid.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/header.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/navigation.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/bootstrap/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-grid.css" type="text/css" rel="stylesheet" />
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <link href="css/header.css" type="text/css" rel="stylesheet" />
+    <link href="css/navigation.css" type="text/css" rel="stylesheet" />
+    <link href="css/skills.css" type="text/css" rel="stylesheet" />
     <!-- CSS  -->
 </head>
 
@@ -35,7 +37,7 @@
                     <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="#projects">Projecs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contacts">Contacts</a>
@@ -49,7 +51,7 @@
     <!--HEADER SECTION-->
     <header id="home">
 
-        <div class="container header-main-container">            
+        <div class="container header-main-container">
             <div class="row height-100per">
 
                 <div class="header-title col-md-7">
@@ -63,41 +65,123 @@
                 </div>
 
                 <div class="col-md-5 header-profile-image-container">
-                    <img class="header-user-photo" src="resources/me.png">
-                    <img>
+                    <img class="header-user-photo" src="resources/me.png" alt="Personal photo" />
                 </div>
             </div>
         </div>
 
         <div class="header-gradient-background height-10em">
             <div class="row height-100per margin-0">
-                <h2 class="col-md-4 col-sm-4 text-center my-auto">Programming</h1>
-                <h2 class="col-md-4 col-sm-4 text-center my-auto">Fishing</h1>
-                <h2 class="col-md-4 col-sm-4  col-xs-12 text-center my-auto">Programming</h1>
+                <p class="col-md-4 col-sm-4 text-center my-auto">Programming </p>
+                <p class="col-md-4 col-sm-4 text-center my-auto">Fishing</p>
+                <p class="col-md-4 col-sm-4  col-xs-12 text-center my-auto">Programming </p>
             </div>
         </div>
 
         <div class="height-100per"></div>
     </header>
-    
     <!--HEADER SECTION-->
-    
-    <section id="about" style="height:1000px; background-color:red">
 
+
+    <!--ABOUT SECTION-->
+    <!-- <section id="about" style="height:0px; background-color:red">
+
+    </section> -->
+    <!--ABOUT SECTION-->
+
+    <!--SKILLS SECTION-->
+    <section id="skills" class="header-gradient-background">
+        <div class="skills-main-container">
+            <h1 class="text-center">Skills</h1>
+
+            <div class="container skills-items-container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/csharp.png" alt="Personal photo" />
+                            <p class="text-center">4 years</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/xamarin.png" alt="Personal photo" />
+                            <p class="text-center">1 year</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/aspnet.png" alt="Personal photo" />
+                            <p class="text-center">1 year</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/webapi.png" alt="Personal photo" />
+                            <p class="text-center">1 year and 4 months</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/wpf.png" alt="Personal photo" />
+                            <p class="text-center">9 months</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/wcf.png" alt="Personal photo" />
+                            <p class="text-center">3 months</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/adonet.png" alt="Personal photo" />
+                            <p class="text-center">3 monhts</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/mssql.png" alt="Personal photo" />
+                            <p class="text-center">2 years</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/machinelearning.png" alt="Personal photo" />
+                            <p class="text-center">2 monhts</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/angular.png" alt="Personal photo" />
+                            <p class="text-center">3 monhts</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/sql.png" alt="Personal photo" />
+                            <p class="text-center">6 monhts</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-7 skills-item">
+                        <div>
+                            <img src="resources/cplusplus.png" alt="Personal photo" />
+                            <p class="text-center">1 years 6 months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!--SKILLS SECTION-->
 
-    <section id="skills" style="height:1000px; background-color:blue">
-
-    </section>
-
-    <section id="experience" style="height:1000px; background-color:yellow">
+    <section id="projects" style="height:1000px; background-color:yellow">
 
     </section>
 
     <section id="contacts" style="height:1000px; background-color:pink">
 
     </section>
-    
+
     <!--SCRIPTS-->
     <script src="js/jquery/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
