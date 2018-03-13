@@ -16,6 +16,7 @@ $(document).ready(function () {
 
 function subscribeToEvents() {
     $(window).scroll(onWindowScrolled);
+    $(document).on('click', 'a[href^="#"]', smoothScrolling);
 }
 
 function onWindowScrolled() {
@@ -34,4 +35,12 @@ function getNavbarFill(scroll) {
     }
 
     return navbarFilledSkills;
+}
+
+function smoothScrolling(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
 }
