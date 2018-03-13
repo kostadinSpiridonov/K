@@ -69,12 +69,13 @@
  }
 
 header{
-    background: url(../resources/background-pattern.png), linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: url(../resources/background-pattern.png), 
+    linear-gradient(to bottom, #0082c8, #0082c8, #0082c8, #0082c8, #0082c8, #0082c8, #3CA55C);
     height: 100vh;
 }
 
 .header-gradient-background{
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to bottom, #0082C8, #18909B);
 }
 
 .header-gradient-background > div > p{

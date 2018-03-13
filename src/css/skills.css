@@ -29,6 +29,10 @@
     font-size:1.4em;
 }
 
+.skills-main-container > h2{
+    font-size: 3em;
+}
+
 @media (min-width: 100px) {  
     .skills-item{
         margin-left: auto;
@@ -37,6 +41,8 @@
 
     #skills{
         min-height:190em;
+        background:url(../resources/background-pattern.png),
+        linear-gradient(to bottom, #3CA55C,#3CA55C,#3CA55C,#3CA55C,#3CA55C,#3CA55C,#B5AC49);
     }
 }
 

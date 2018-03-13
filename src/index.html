@@ -20,15 +20,15 @@
 <body data-spy="scroll" data-target="#main-navigation">
 
     <!--NAVIGATION-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top" id="main-navigation">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top navbar-filled-header" id="main-navigation">
         <a class="navbar-brand" href="#home">Home</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+        <button id="navbar-collapse-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav ml-auto text-right">
+            <ul class="navbar-nav ml-auto text-left">
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
                 </li>
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="col-md-5 header-profile-image-container">
-                    <img class="header-user-photo" src="resources/me.png" alt="Personal photo" />
+                    <img src="resources/me.png" alt="Personal photo" />
                 </div>
             </div>
         </div>
@@ -89,9 +89,9 @@
     <!--ABOUT SECTION-->
 
     <!--SKILLS SECTION-->
-    <section id="skills" class="header-gradient-background">
+    <section id="skills">
         <div class="skills-main-container">
-            <h1 class="text-center">Skills</h1>
+            <h2 class="text-center">Skills</h2>
 
             <div class="container skills-items-container">
                 <div class="row">
@@ -184,7 +184,7 @@
     <!--SCRIPTS-->
     <script src="js/jquery/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
+    <script src="js/navigation.js"></script>
     <!--SCRIPTS-->
 </body>
-
 </html>
