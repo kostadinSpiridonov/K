@@ -3,10 +3,12 @@
 var mainNavigationS = "#main-navigation";
 var navbarCollapseButtonS = "#navbar-collapse-button"
 var headerS = "#home"
+var skillsS = "#skills"
 
 //CSS classes
 var navbarFilledHeader = "navbar-filled-header";
 var navbarFilledSkills = "navbar-filled-skills";
+var navbarFilledProjects = "navbar-filled-projects";
 
 var navbarFilled = navbarFilledHeader;
 
@@ -34,10 +36,16 @@ function getNavbarFill(scroll) {
         return navbarFilledHeader;
     }
 
-    return navbarFilledSkills;
+    var skillsHeaderHeight = $(skillsS).height();
+    if (scroll >= homeHeaderHeight &&
+        scroll < (homeHeaderHeight + skillsHeaderHeight)) {
+        return navbarFilledSkills;
+    }
+
+    return navbarFilledProjects;
 }
 
-function smoothScrolling(event){
+function smoothScrolling(event) {
     event.preventDefault();
 
     $('html, body').animate({

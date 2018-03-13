@@ -18,6 +18,12 @@
     opacity: 0.9;
 }
 
+.navbar-filled-projects{  
+    background: url(../resources/background-pattern.png), 
+    #B5AC49;
+    opacity: 0.9;
+}
+
 @media (min-width: 100px) {  
     .navbar-nav{
         padding:1em;

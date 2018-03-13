@@ -1,0 +1,81 @@
+.projects-main-container{
+    padding-top:3em;
+    height: 100%;
+}
+
+.projects-items-container{
+    height: 25%;
+    padding-top:2em;
+}
+
+.projects-items-container > div {
+    height: 100%;
+    padding:1em;
+}
+
+.projects-items-container > div > div > img {
+    width: 100%;
+    height: 10em;
+}
+
+
+.projects-main-container > h2{
+    font-size: 3em;
+}
+
+@media (min-width: 100px) {  
+    #projects{
+        min-height:120em;
+        background:url(../resources/background-pattern.png),
+        linear-gradient(to bottom, #B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49);
+    }
+
+    .projects-items-container > div > div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects-items-container > div > div > p{
+        text-align: center;
+    }
+
+    .projects-items-container > div > div > h2{
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {  
+    #projects{
+        min-height:110em;
+    }
+}
+
+@media (min-width: 768px) { 
+    #projects{
+        min-height:70em;
+    }
+
+    .projects-items-container > div > div{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .projects-items-container > div > div > p{
+        text-align: left;
+    }
+
+    .projects-items-container > div > div > h2{
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {  
+    #projects{
+        min-height:55em;
+    }
+ }
+ @media (min-width: 1200px) {  
+    #projects{
+        min-height:50em;
+    }
+ }
