@@ -324,15 +324,18 @@
                         <form id="contacts-form">
                             <h4 class="send-message-title">Send me a message</h4>
                             <div class="form-group">
-                                <input type="email" class="form-control transparent-control" placeholder="Your email">
+                                <input id="form-m-email" type="email" class="form-control transparent-control" placeholder="Your email">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control transparent-control" placeholder="You name">
+                                <input id="form-m-name" type="text" class="form-control transparent-control" placeholder="You name">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control transparent-control" placeholder="Your message" rows="5"></textarea>
+                                <textarea id="form-m-message" class="form-control transparent-control" placeholder="Your message" rows="5"></textarea>
                             </div>
-                            <button type="button" class="btn btn-default transparent-control">Send your message</button>
+                            <div id="errors-container">
+
+                            </div>
+                            <button type="button" class="btn btn-default transparent-control" onclick="validateForm()">Send your message</button>
                         </form>
                     </div>
                 </div>
@@ -362,6 +365,7 @@
     <script src="js/jquery/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
     <script src="js/navigation.js"></script>
+    <script src="js/validation.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
     <!--SCRIPTS-->
 </body>

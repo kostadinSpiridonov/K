@@ -19,6 +19,12 @@
     height:16em;
 }
 
+#errors-container{
+    color: red;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+}
+
 .send-message-title{
     color:rgb(219, 219, 219);
 }
@@ -38,7 +44,7 @@
 
 @media (min-width: 100px) {  
     #contacts{
-        min-height:74em;
+        min-height:79em;
         background:url(../resources/background-pattern.png),
         linear-gradient(to bottom, #948E99,#948E99,#948E99,#948E99,#948E99,#948E99,#94716B);
     }
@@ -56,7 +62,7 @@
 
 @media (min-width: 768px) { 
     #contacts{
-        min-height:52em;
+        min-height:54em;
     }
 
     .contacts-info{
