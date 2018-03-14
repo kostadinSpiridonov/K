@@ -1,0 +1,25 @@
+@media (min-width: 100px) {  
+    #contacts{
+        min-height:190em;
+        background:url(../resources/background-pattern.png),
+        linear-gradient(to bottom, #948E99,#948E99,#948E99,#948E99,#948E99,#948E99,#94716B);
+    }
+}
+
+@media (min-width: 576px) {  
+     #contacts{
+        min-height:100em;
+    }
+}
+
+@media (min-width: 768px) { 
+    #contacts{
+        min-height:70em;
+    }
+}
+
+@media (min-width: 992px) {  
+   #contacts{
+    min-height:55em;
+    }
+ }

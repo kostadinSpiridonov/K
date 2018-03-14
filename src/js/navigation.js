@@ -3,14 +3,20 @@
 var mainNavigationS = "#main-navigation";
 var navbarCollapseButtonS = "#navbar-collapse-button"
 var headerS = "#home"
+var aboutS = "#about"
 var skillsS = "#skills"
+var projectsS = "#projects"
 
 //CSS classes
 var navbarFilledHeader = "navbar-filled-header";
+var navbarFilledAbout = "navbar-filled-about";
 var navbarFilledSkills = "navbar-filled-skills";
 var navbarFilledProjects = "navbar-filled-projects";
+var navbarFilledContacts = "navbar-filled-contacts";
 
 var navbarFilled = navbarFilledHeader;
+
+var colorChangeOffset = -80;
 
 $(document).ready(function () {
     subscribeToEvents();
@@ -31,18 +37,29 @@ function onWindowScrolled() {
 }
 
 function getNavbarFill(scroll) {
-    var homeHeaderHeight = $(headerS).height();
-    if (scroll >= 0 && scroll < homeHeaderHeight) {
+    var currentHeight = 0;
+
+    currentHeight += $(headerS).height();
+    if (scroll < currentHeight + colorChangeOffset) {
         return navbarFilledHeader;
     }
 
-    var skillsHeaderHeight = $(skillsS).height();
-    if (scroll >= homeHeaderHeight &&
-        scroll < (homeHeaderHeight + skillsHeaderHeight)) {
+    currentHeight += $(aboutS).height();
+    if (scroll < currentHeight + colorChangeOffset) {
+        return navbarFilledAbout;
+    }
+
+    currentHeight += $(skillsS).height();
+    if (scroll < currentHeight + colorChangeOffset) {
         return navbarFilledSkills;
     }
 
-    return navbarFilledProjects;
+    currentHeight += $(projectsS).height();
+    if (scroll < currentHeight + colorChangeOffset) {
+        return navbarFilledProjects;
+    }
+
+    return navbarFilledContacts;
 }
 
 function smoothScrolling(event) {

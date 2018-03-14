@@ -1,0 +1,25 @@
+@media (min-width: 100px) {  
+    #about{
+        min-height:190em;
+        background:url(../resources/background-pattern.png),
+        linear-gradient(to bottom, #3CA55C,#3CA55C,#3CA55C,#3CA55C,#3CA55C,#3CA55C,#636FA4);
+    }
+}
+
+@media (min-width: 576px) {  
+     #about{
+        min-height:100em;
+    }
+}
+
+@media (min-width: 768px) { 
+    #about{
+        min-height:70em;
+    }
+}
+
+@media (min-width: 992px) {  
+   #about{
+    min-height:55em;
+    }
+ }

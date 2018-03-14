@@ -27,7 +27,7 @@
     #projects{
         min-height:120em;
         background:url(../resources/background-pattern.png),
-        linear-gradient(to bottom, #B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49);
+        linear-gradient(to bottom, #B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#948E99);
     }
 
     .projects-items-container > div > div{

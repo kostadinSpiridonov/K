@@ -7,20 +7,27 @@
 }
 
 .navbar-filled-header{  
-    background: url(../resources/background-pattern.png), 
-    #0082c8;
+    background: url(../resources/background-pattern.png),#0082c8;
+    opacity: 0.9;
+}
+
+.navbar-filled-about{  
+    background: url(../resources/background-pattern.png),#3CA55C;
     opacity: 0.9;
 }
 
 .navbar-filled-skills{  
-    background: url(../resources/background-pattern.png), 
-    #3CA55C;
+    background: url(../resources/background-pattern.png),#636FA4;
     opacity: 0.9;
 }
 
 .navbar-filled-projects{  
-    background: url(../resources/background-pattern.png), 
-    #B5AC49;
+    background: url(../resources/background-pattern.png),#B5AC49;
+    opacity: 0.9;
+}
+
+.navbar-filled-contacts{  
+    background: url(../resources/background-pattern.png),#948E99;
     opacity: 0.9;
 }
 
