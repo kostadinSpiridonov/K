@@ -22,7 +22,7 @@
 
 @media (min-width: 100px) {  
     #projects{
-        min-height:124em;
+        min-height:135em;
         background:url(../resources/background-pattern.png),
         linear-gradient(to bottom, #B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#B5AC49,#948E99);
     }

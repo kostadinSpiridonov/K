@@ -77,7 +77,7 @@ header{
 }
 
 .header-gradient-background{
-    background: linear-gradient(to bottom, #0082C8, #2B9B7B);
+    background: linear-gradient(to bottom, #0082C8, #0082C8);
 }
 
 .header-gradient-background > div > p{
@@ -91,3 +91,9 @@ header{
 .header-title > h2{
     font-size: 2em;
 } 
+
+.header-motto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
